@@ -1,0 +1,12 @@
+name: Tic-Tac-Toe
+main: tictactoe.Plugin
+version: "1.0.0"
+api: ["1.0.14"]
+load: POSTWORLD
+author: Me
+description: "Play Tic-Tac-Toe on your server"
+
+commands:
+  tictactoe:
+    description: "Request a new Tic-Tac-Toe game!"
+    usage: "/tictactoe <opponent: Player>"
