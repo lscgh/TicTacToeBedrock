@@ -9,4 +9,9 @@ description: "Play Tic-Tac-Toe on your server"
 commands:
   tictactoe:
     description: "Request a new Tic-Tac-Toe game!"
-    usage: "/tictactoe <opponent: Player>"
+    usage: "/tictactoe <opponent: Player> [sizeX = 3] [sizeY = 1] [sizeZ = 3] [winRequiredAmount = 3]"
+    aliases: ["ttt"]
+  tictactoeaccept:
+    description: "Accept a Tic-Tac-Toe game!"
+    usage: "/tictactoeaccept <requestingPlayerName: String>"
+    aliases: ["ttta"]
